@@ -1,0 +1,28 @@
+body {
+    background-color: white;
+}
+
+.nav {
+    background-color:#ccc;
+}
+
+.logo {
+    background-color: lightcoral;
+    border-style: solid;
+}
+
+.dragdrop {
+     background-color: #f1f1f1;
+}
+.chkbox {
+     background-color: #f1f1f1;
+}
+.emails {
+     background-color: #f1f1f1;
+}
+
+.footer {
+    background-color:#ccc;
+}
+
+

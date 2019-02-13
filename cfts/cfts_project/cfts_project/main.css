@@ -1,0 +1,96 @@
+/* This is a single-line comment */
+
+/* This is
+a multi-line
+comment */
+/* sets the size of the box model up to the border doesnt include margin does it for entire page with *
+*{ box-sizing: border-box;
+}
+*/
+
+body {
+    background-color:#f4f4f4;
+    color: #555;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.clr {
+    clear: both;
+}
+
+#test {
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+#cfts_logo{
+    border: 2px solid purple;
+    max-width: 30%;
+    height: 100px;
+    background-color: powderblue;
+    /*margin-top: 10px;*/
+    /*margin-bottom: 100px;*/
+}
+
+#navbar{
+    background-color: lightpink;
+    color: white;
+    width: 50%;
+    float: right;
+    /*margin-top: 10px;*/
+    text-align: right;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display:inline;
+}
+
+#navbar a{
+    color:#fff;
+    text-decoration:none;
+    padding-right: 15px;
+}
+
+/* If we want to add an image for the background
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+}
+ */
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 2px solid black;
+    box-sizing: border-box; /* only allows you to use width of border and padding */
+    margin-bottom: 100px;
+}
+
+#s_btn {
+    text-align: center;
+}
+
+#contact {
+    border: 2px solid red;
+    max-width: 300px;
+    height: 100px;
+    background-color: yellow;
+    float: right;
+    margin-top: 100px;
+}
+
+
+
+
+
+/* set ids for the html divs */
